@@ -10,7 +10,7 @@
   (package-install 'org))           ;; installed, install it if not
 (package-initialize)                ;; Initialize & Install Package
 
-(let ((d (directory-file-name (file-name-directory buffer-file-name))))
+(let ((d "~/.emacs.d"))
   (setq org-agenda-files (list (concat d "/org")))
   (setq org-mobile-files (list (concat d "/org")))
   (setq org-mobile-directory (concat d "/mobile")))
