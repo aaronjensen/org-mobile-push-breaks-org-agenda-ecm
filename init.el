@@ -10,6 +10,7 @@
   (package-install 'org))           ;; installed, install it if not
 (package-initialize)                ;; Initialize & Install Package
 
+(setq create-lockfiles nil)
 (let ((d "~/.emacs.d"))
   (setq org-agenda-files (list (concat d "/org")))
   (setq org-mobile-files (list (concat d "/org")))
