@@ -4,7 +4,7 @@ To repro:
 
 ```bash
 mv ~/.emacs.d ~/.emacs.d.old
-git clone git@github.com:aaronjensen/org-mobile-push-breaks-org-agenda-ecm.git ~/.emacs.d.old
+git clone git@github.com:aaronjensen/org-mobile-push-breaks-org-agenda-ecm.git ~/.emacs.d
 emacs
 ```
 
