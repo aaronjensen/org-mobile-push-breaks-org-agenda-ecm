@@ -10,6 +10,6 @@ emacs
 
 In emacs:
 
-1. `M-x org-agenda`
+1. `M-x org-agenda a`
 2. `M-x org-mobile-push`
 3. `C-n` to TODO and hit `t` to mark as done
